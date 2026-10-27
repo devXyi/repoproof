@@ -1,0 +1,8 @@
+version = 1
+
+[repoproof]
+docs = ["README.md"]
+
+[sandbox]
+# Report every failing step instead of stopping at the first one.
+keep_going = true

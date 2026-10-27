@@ -1,0 +1,19 @@
+name: RepoProof
+
+# RepoProof verifies its own README. The local action installs this checkout, so a pull
+# request is checked with the code it proposes.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write # lets the action keep its sticky pull request comment up to date
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./
