@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Report a security vulnerability
-    url: https://github.com/devXyi/repoproof/security/advisories/new
-    about: Please report security problems privately, not as a public issue.
-  - name: Read the documentation
-    url: https://github.com/devXyi/repoproof/tree/main/docs
-    about: Configuration, rules, the security model and the GitHub Action are documented here.

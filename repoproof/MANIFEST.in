@@ -1,6 +1,0 @@
-include LICENSE README.md CHANGELOG.md SECURITY.md CONTRIBUTING.md CODE_OF_CONDUCT.md
-include action.yml repoproof.toml
-recursive-include docs *.md
-recursive-include tests *.py
-recursive-include examples *
-global-exclude __pycache__ *.py[cod]
